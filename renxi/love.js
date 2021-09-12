@@ -1,4 +1,4 @@
-﻿(function(window){
+(function(window){
 
     function random(min, max) {
         return min + Math.floor(Math.random() * (max - min + 1));
@@ -169,7 +169,7 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px 微软雅黑,Verdana";
-	    ctx.fillText(" [亲爱的宝贝]点击心有惊喜", 23, 10);
+	    ctx.fillText(" 点击一下子哦", 23, 10);
             ctx.restore();
         },
         clear: function() {
